@@ -12,10 +12,10 @@ namespace FileUploadDemo.Models
         [Key]
         public int ImageId { get; set; }
 
-        [Column(TypeName = "navchar(50)")]
+        [Column(TypeName = "nvarchar(50)")]
         public string Title { get; set; }
 
-        [Column(TypeName = "navchar(120)")]
+        [Column(TypeName = "nvarchar(120)")]
         public string ImageName { get; set; }
     }
 }
